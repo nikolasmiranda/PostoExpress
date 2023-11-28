@@ -30,13 +30,36 @@
     <br>
     <div class="carrosselimg">
     <h1 id="texto-app"> Baixe nosso app! Cupons de desconto e delivery </h1>
-    <img src="https://www.gov.br/pt-br/imagens-de-servicos/apple.png" id="apple">
-    </div>
     <div class="carrossel">
         <div class="container" id="img">
             <img src="img/promo.png" alt="">
             <img src="img/melhor-gasolina.png" alt="">
             <img src="img/delivery.png" alt="">
         </div>
+    </div>
+    <br>
+    <section style="display: flex; height: 20%;">
+        <section style="display: flex; background-color: white; width: 25%;">
+        <footer>
+            <h1>O que Ã© o HTML?</h1>
+            <ul>
+                <li><a href="aplicacoesdohtml.html">AplicaÃ§Ãµes</a></li>
+            </ul>
+        </footer>
+        </section>
+        <section class="rodape">
+            <footer>
+                <h1>Atributos do HTML</h1>
+            </footer>
+        </section>
+        <section style="display: flex; background-color: white; width: 25%;">
+        <footer>
+            <h1>Elementos do HTML</h1>
+        </footer>
+        </section>
+        <section style="display: flex; background-color: whitesmoke; width: 25%;"> 
+            <h1> Elementos do CSS</h1>
+        </section>
+</section>
 </body>
 </html>
