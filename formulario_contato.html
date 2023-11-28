@@ -11,7 +11,7 @@
     <section id=navegacao>
     <nav>
         <ul id="ulnav">
-        <li class="navli"><a class="ancoragemnav" href="index.php">Início</a></li>
+            <li class="navli"><a class="ancoragemnav" href="index.php">Início</a></li>
             <li class="navli"><a class="ancoragemnav" href="calculo-gasolina.php">Calculo de Gasolina</a></li>
             <li class="navli"><a class="ancoragemnav" href="unidades.html">Unidades</a></li>
             <li class="navli"><a class="ancoragemnav" href="sobre.html">Sobre</a></li>
@@ -20,24 +20,38 @@
     </nav>
     </section>
     <br>
-    <section id="banner">
-    <h1 id="texto-principal"><b>O lugar certo para abastecer seu veículo!
-        Consulte nossas unidades.</b>
-    </h1>
-    <br>
-    <img src="img/postodegasolina.jpeg">
-    </section>
-    <br>
-    <div class="carrosselimg">
-    <h1 id="texto-app"> Baixe nosso app! Cupons de desconto e delivery </h1>
-    <div class="carrossel">
-        <div class="container" id="img">
-            <img src="img/promo.png" alt="">
-            <img src="img/melhor-gasolina.png" alt="">
-            <img src="img/delivery.png" alt="">
+    <main>
+        <div class="painel">
+            <h2 id="h2-contato">Entre em contato conosco</h2>
+            <div class="conteudo-painel">
+                <p id="p-contato">
+                    Bem-vindo à página de contato do Posto Express! 
+                    Estamos aqui para fornecer a você um serviço excepcional e 
+                    atendimento ao cliente de alta qualidade. Se você tiver dúvidas, 
+                    comentários ou precisar de assistência, 
+                    sinta-se à vontade para entrar em contato conosco.
+                </p>
+            </div>
+        </div>
+        <br>
+    <div class="painel">
+        <h2>Insira seus dados de contato abaixo: </h2>
+        <div class="conteudo-painel">
+            <form action="formulario_contato.html" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" class="campoTexto" name="nome" required>
+            
+                <label for="email">E-mail:</label>
+                <input type="email" class="campoTexto" name="email" required>
+            
+                <label for="telefone">Telefone:</label>
+                <input type="tel" class="campoTexto" name="telefone" required>
+            
+                <input type="submit" class="botao-contato" value="Enviar">
+
         </div>
     </div>
-    </div>
+    </main>
     <br>
     <section id="footers">
         <section class="rodapes1">

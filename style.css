@@ -1,63 +1,193 @@
-*{
-    box-sizing: border-box;
+* {
+    font-family: Arial, Helvetica, sans-serif;  
 }
-body{
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-    min-height: 100vh;
+
+body {
     background-color: #13ba1b;
 }
-#navegacao{
+
+#navegacao {
     display: flex;
     background-color: #1310be;
 }
-#ulnav{
+
+#ulnav {
     display: inline;
 }
-.navli{
+
+.navli {
     float: left;
     display: block;
     text-align: center;
     padding: 10px 112px;
 }
-.ancoragemnav{
+
+.ancoragemnav {
     color: white
 }
-#banner{
+
+#banner {
     display: flex;
     background-color: #f3c727;
 }
-#texto-principal{
+
+#texto-principal {
     font-size: 50px;
     color: white;
 }
-.carrossel{
+
+.carrossel {
     box-shadow: 2px 2px 4px black;
     overflow: hidden;
     height: 500px;
     width: 500px;
-    float: left;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
 }
-.container{
+
+.container {
     display: flex;
     transition: transform 0.5s ease-in-out;
     transform: translateX(0);
+    margin-right: auto;
+    margin-left: auto;
 }
-#img{
+
+#img {
     object-fit: cover;
     height: 500px;
     width: 500px;
 }
-.carrosselimg{
-    float: right;
-}
-#texto-app{
+
+#texto-app {
     font-size: 45px;
     color: white;
+    text-align: center;
 }
-#apple{
-    height: 40%;
-    width: 40%;
-    float: right;
+
+#footers {
+    display: flex;
+    height: 20%;
+}
+
+.rodapes1 {
+    display: flex;
+    background-color: white;
+    width: 25%;
+}
+
+.rodapes2 {
+    display: flex;
+    background-color: whitesmoke;
+    width: 25%;
+}
+
+#h1-sobre {
+    color: white;
+    font-size: 50px;
+}
+
+#texto-sobre {
+    color: white;
+    font-size: 40px;
+}
+
+#h1-epitacio {
+    color: white;
+    font-size: 50px;
+}
+
+#p-epitacio {
+    color: white;
+    font-size: 35px;
+}
+
+#h1-nego {
+    color: white;
+    font-size: 50px;
+}
+
+#p-nego {
+    color: white;
+    font-size: 35px;
+}
+main {
+	padding: 10px;
+	display: flex;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+label {
+	font-weight: bold;
+}
+
+
+.campoTexto {
+	width: 100%;
+	padding: 8px 8px;
+	margin: 5px 0;
+	box-sizing: border-box;
+	border-color: white;
+	border-radius: 4px;
+}
+
+#h2-painel {
+	background-color: #f3c727;
+	color: #FFFEFA;
+	margin: 0;
+	padding: 12px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.botao {
+	background-color: #1310be;
+	color: #FFFEFA;
+	text-align: center;
+	border-radius: 4px;
+	padding: 10px 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100px;
+	display: block;
+}
+
+.painel {
+	margin-right: 10px;
+	border-width: thin;
+	border-style: solid;
+	border-color: white;
+    background-color: white;
+	flex-grow: 1;
+	border-radius: 8px;
+	max-width: 2000px;
+}
+
+.conteudo-painel {
+	padding: 15px;
+}
+
+#h2-contato {
+    font-size: 35px;
+    color: black;
+}
+
+#p-contato {
+    font-size: 20px;
+    color: black;
+}
+
+.botao-contato {
+    background-color: #1310be;
+	color: #FFFEFA;
+	text-align: center;
+	border-radius: 4px;
+	padding: 10px 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100px;
+	display: block;
 }
